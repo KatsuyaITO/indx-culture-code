@@ -1034,7 +1034,6 @@ const cultureCodes: CultureCode[] = [
     tags: ["electronics", "entertainment", "gaming", "music", "movies", "technology", "innovation", "creativity", "kando", "diversity", "R&D", "core-values", "sustainability", "csr", "environment", "social-impact", "long-term-vision", "human-rights", "supply-chain-responsibility", "stakeholder-engagement"],
     color: "#000000",
   },
-  // Nintendo Specific Value (ID 105) - 任天堂の具体的な価値観
   {
     id: 105, // Was ID 80
     companyName: "任天堂",
@@ -1043,17 +1042,564 @@ const cultureCodes: CultureCode[] = [
     description: "他社の模倣や追随をせず、独自のアイデアとアプローチによって、これまでにない「面白い体験」を創造するという任天堂の根幹をなす精神。リスクを恐れず、誰も考えつかなかったような新しい娯楽の形を追求する。", // Expanded description - 拡張された説明
     tags: ["gaming", "entertainment", "consumer-electronics", "creativity", "innovation", "fun", "originality", "intellectual-property", "user-experience", "family-friendly", "quality", "long-term-focus", "core-value", "uniqueness", "differentiation", "pioneering", "risk-taking", "entertainment-philosophy"],
     color: "#E60012",
-  }
-];
+  },
+  {
+    id: 106,
+    companyName: "Honda",
+    slogan: "What can we do for the world and its people?", // 英語スローガン
+    slogan_ja: "世のため人のため、自分たちが何かできることはないか", // 日本語スローガン
+    description: "Hondaイズムの原点。高い目標を持ち、その実現に向けて情熱を燃やし続け、社会の役に立つことを目指す姿勢。",
+    tags: ["honda", "automotive", "motorcycle", "philosophy", "core-values", "hondaism", "passion", "dreams", "contribution", "mobility", "purpose", "origin"],
+    color: "#E4002B"
+  },
+  {
+    id: 107,
+    companyName: "Honda",
+    slogan: "Carry your own torch", // 英語スローガン
+    slogan_ja: "松明は自分の手で", // 日本語スローガン
+    description: "常に新しい道を自ら切り拓き、Honda独自の道を歩み続けるという創業以来の精神。",
+    tags: ["honda", "automotive", "motorcycle", "philosophy", "core-values", "hondaism", "pioneering-spirit", "originality", "independence", "challenge", "self-reliance"],
+    color: "#E4002B"
+  },
+  {
+    id: 108,
+    companyName: "Honda",
+    slogan: "Utilize differences, not disparities", // 英語スローガン
+    slogan_ja: "差ではなく違いを活かせ", // 日本語スローガン
+    description: "個人の能力には優劣はなく「違い」があるだけと考え、それぞれの個性を尊重し、能力を発揮できる環境を大切にする。",
+    tags: ["honda", "automotive", "motorcycle", "philosophy", "core-values", "hondaism", "diversity", "inclusion", "individuality", "respect", "teamwork", "synergy"],
+    color: "#E4002B"
+  },
+  {
+    id: 109,
+    companyName: "Honda",
+    slogan: "Strive for 120% perfect products", // 英語スローガン
+    slogan_ja: "120%の良品を目指せ", // 日本語スローガン
+    description: "すべての顧客に満足してもらうため、常に目標を高く設定し、120%の品質を目指すという考え方。",
+    tags: ["honda", "automotive", "motorcycle", "philosophy", "core-values", "hondaism", "quality", "customer-satisfaction", "perfection", "commitment", "excellence"],
+    color: "#E4002B"
+  },
+  {
+    id: 110,
+    companyName: "Honda",
+    slogan: "Work for yourself first", // 英語スローガン
+    slogan_ja: "まず自分のために働け", // 日本語スローガン
+    description: "社員が自身の目標や成長のために働くことが、結果として会社への貢献につながるという本田宗一郎の言葉。",
+    tags: ["honda", "automotive", "motorcycle", "philosophy", "core-values", "hondaism", "self-motivation", "personal-growth", "fulfillment", "employee-focus", "contribution"],
+    color: "#E4002B"
+  },
+  {
+    id: 111,
+    companyName: "Honda",
+    slogan: "Honda is not a profit-first company", // 英語スローガン
+    slogan_ja: "Hondaは利益優先の会社ではない", // 日本語スローガン
+    description: "利益も重要だが、それ以上に社員一人ひとりの夢や想いを具体化し、「科学技術で社会に貢献すること」を最大の使命と考えている。",
+    tags: ["honda", "automotive", "motorcycle", "philosophy", "core-values", "hondaism", "purpose-driven", "social-contribution", "technology", "dreams", "mission"],
+    color: "#E4002B"
+  },
+  {
+    id: 112,
+    companyName: "Honda",
+    slogan: "Be World No.1 to be Japan No.1", // 英語スローガン
+    slogan_ja: "世界一じゃなきゃ日本一じゃない", // 日本語スローガン
+    description: "日本市場だけでなく、世界中の顧客満足を目指し、世界最高水準の品質を追求することで、真の日本一になれるというグローバルな視点。",
+    tags: ["honda", "automotive", "motorcycle", "philosophy", "core-values", "hondaism", "global-mindset", "world-class", "ambition", "quality", "customer-focus", "competitiveness"],
+    color: "#E4002B"
+  },
+  {
+    id: 113,
+    companyName: "Honda",
+    slogan: "A talented hawk should show its claws", // 英語スローガン
+    slogan_ja: "能ある鷹は爪を誇示せよ", // 日本語スローガン
+    description: "自分の得意分野に積極的に取り組み、能力を磨き、組織全体の強化に貢献すること、そして自分の考えを明確に意思表示することの重要性を示している。",
+    tags: ["honda", "automotive", "motorcycle", "philosophy", "core-values", "hondaism", "strengths", "proactiveness", "skill-development", "contribution", "assertiveness", "visibility"],
+    color: "#E4002B"
+  },
+  {
+    id: 114,
+    companyName: "Honda",
+    slogan: "Of seeing, hearing, and trying, trying is most important", // 英語スローガン
+    slogan_ja: "見たり、聞いたり、試したりで、試したりが一番重要なんだ", // 日本語スローガン
+    description: "現場での実践、特に実際に試してみて失敗から学ぶこと（三現主義）を最も重視する考え方。",
+    tags: ["honda", "automotive", "motorcycle", "philosophy", "core-values", "hondaism", "field-oriented", "gemba", "sangen-shugi", "hands-on", "trial-and-error", "learning", "experience"],
+    color: "#E4002B"
+  },
+  {
+    id: 115,
+    companyName: "Honda",
+    slogan: "All are equal before technology. What matters is the idea itself.", // 英語スローガン
+    slogan_ja: "技術の前ではみな平等だ。問題はアイデアの中身だ", // 日本語スローガン
+    description: "役職や経験に関わらず、誰もが対等な立場で意見を出し合い、アイデアそのものの価値で議論するフラットな文化を表す。",
+    tags: ["honda", "automotive", "motorcycle", "philosophy", "core-values", "hondaism", "equality", "flat-culture", "ideas", "meritocracy", "technology", "discussion", "openness"],
+    color: "#E4002B"
+  },
+  {
+    id: 116,
+    companyName: "Honda",
+    slogan: "Generate ideas and play hard", // 英語スローガン
+    slogan_ja: "アイデアを出して大いに遊ぶ", // 日本語スローガン
+    description: "仕事もプライベートも、アイデアと工夫で密度を高め、思い切り楽しむことがHonda流の働き方・生き方。",
+    tags: ["honda", "automotive", "motorcycle", "philosophy", "core-values", "hondaism", "creativity", "work-life-balance", "enjoyment", "efficiency", "ingenuity", "lifestyle"],
+    color: "#E4002B"
+  },
+  {
+    id: 117,
+    companyName: "Honda",
+    slogan: "Reject the 'no play, no error' mindset", // 英語スローガン
+    slogan_ja: "ノープレー・ノーエラーを排せ", // 日本語スローガン
+    description: "失敗を恐れずに挑戦することを奨励し、何もしないことを停滞と捉え、チャレンジ精神を重んじる。",
+    tags: ["honda", "automotive", "motorcycle", "philosophy", "core-values", "hondaism", "challenge", "action", "risk-taking", "learning-from-failure", "progress", "proactiveness"],
+    color: "#E4002B"
+  },
+  {
+    id: 118,
+    companyName: "Honda",
+    slogan: "A00", // 英語スローガン (固有名詞のためそのまま)
+    slogan_ja: "A00", // 日本語スローガン
+    description: "プロジェクトを開始する際に最初に定める、根幹となるコンセプトや目的。「何のためにやるのか」という原点であり、判断基準となるもの。",
+    tags: ["honda", "automotive", "motorcycle", "philosophy", "core-values", "hondaism", "project-management", "concept", "purpose", "guideline", "vision", "core-principle"],
+    color: "#E4002B"
+  },
+  {
+    id: 119,
+    companyName: "Honda",
+    slogan: "Waigaya", // 英語スローガン (Honda独自の用語のためローマ字表記)
+    slogan_ja: "ワイガヤ", // 日本語スローガン
+    description: "年齢や役職に関係なく、参加者が自由に本音で議論を戦わせるHonda独自のミーティングスタイル。新しい価値創造の場となっている。",
+    tags: ["honda", "automotive", "motorcycle", "philosophy", "core-values", "hondaism", "discussion", "brainstorming", "communication", "flat-culture", "innovation", "collaboration", "open-dialogue"],
+    color: "#E4002B"
+  },
+    {
+    id: 200,
+    companyName: "CyberAgent",
+    slogan: "Don't shift focus from the growth industry of the internet",
+    slogan_ja: "インターネットという成長産業から軸足はぶらさない。",
+    description: "事業の根幹はインターネットとし、この成長市場に常にコミットし続ける。",
+    tags: ["cyberagent", "mission", "vision", "strategy", "internet", "focus", "core-business", "growth-industry"],
+    color: "#00A040"
+  },
+  {
+    id: 201,
+    companyName: "CyberAgent",
+    slogan: "Actively enter related fields",
+    slogan_ja: "ただし連動する分野にはどんどん参入していく。",
+    description: "インターネットを軸としつつも、関連分野やシナジーのある分野へ積極的に挑戦し、多角化と成長を追求する。",
+    tags: ["cyberagent", "mission", "vision", "strategy", "expansion", "diversification", "synergy", "new-business", "growth"],
+    color: "#00A040"
+  },
+  {
+    id: 202,
+    companyName: "CyberAgent",
+    slogan: "Always FRESH!",
+    slogan_ja: "オールウェイズFRESH!",
+    description: "常に新鮮な気持ちで既成概念にとらわれず、新しいことに挑戦し続ける文化を維持する。",
+    tags: ["cyberagent", "mission", "vision", "culture", "values", "fresh", "innovation", "challenge", "adaptability", "energy"],
+    color: "#00A040"
+  },
+  {
+    id: 203,
+    companyName: "CyberAgent",
+    slogan: "Hire people you *want* to work with over just high ability",
+    slogan_ja: "能力の高さより一緒に働きたい人を集める。",
+    description: "スキルだけでなく、カルチャーフィットやチームワークを重視し、共に働きたいと思える人材を採用する。",
+    tags: ["cyberagent", "mission", "vision", "hr", "recruitment", "hiring", "culture-fit", "teamwork", "collaboration", "values"],
+    color: "#00A040"
+  },
+  {
+    id: 204,
+    companyName: "CyberAgent",
+    slogan: "Put maximum effort into hiring",
+    slogan_ja: "採用には全力をつくす。",
+    description: "人材を最重要資産と捉え、適切な人材を獲得するために採用活動に最大限の努力を注ぐ。",
+    tags: ["cyberagent", "mission", "vision", "hr", "recruitment", "hiring", "talent-acquisition", "priority", "effort"],
+    color: "#00A040"
+  },
+  {
+    id: 205,
+    companyName: "CyberAgent",
+    slogan: "Rejoice in rising young talent; prohibit seniority system",
+    slogan_ja: "若手の台頭を喜ぶ組織で、年功序列は禁止。",
+    description: "年齢や社歴に関係なく、意欲と能力のある若手が活躍できる実力主義の組織文化を奨励する。",
+    tags: ["cyberagent", "mission", "vision", "culture", "hr", "meritocracy", "no-seniority", "young-talent", "promotion", "opportunity", "dynamic-organization"],
+    color: "#00A040"
+  },
+  {
+    id: 206,
+    companyName: "CyberAgent",
+    slogan: "Thoroughly eliminate disadvantages of scale",
+    slogan_ja: "スケールデメリットは徹底排除。",
+    description: "組織が拡大しても、官僚主義や意思決定の遅延といった弊害を防ぎ、常に機動性と効率性を保つ。",
+    tags: ["cyberagent", "mission", "vision", "organization", "strategy", "scalability", "agility", "efficiency", "bureaucracy", "nimble"],
+    color: "#00A040"
+  },
+  {
+    id: 207,
+    companyName: "CyberAgent",
+    slogan: "Speak frankly when in doubt",
+    slogan_ja: "迷ったら率直に言う。",
+    description: "役職や立場に関わらず、疑問や懸念、意見を率直に表明できるオープンなコミュニケーション文化を促進する。",
+    tags: ["cyberagent", "mission", "vision", "culture", "communication", "transparency", "honesty", "feedback", "open-dialogue"],
+    color: "#00A040"
+  },
+  {
+    id: 208,
+    companyName: "CyberAgent",
+    slogan: "Realize an environment for talented employees to work long-term",
+    slogan_ja: "有能な社員が長期にわたって働き続けられる環境を実現。",
+    description: "優秀な人材が安心して長く働き続けられる待遇、福利厚生、キャリアパス、働きがいのある環境を整備する。",
+    tags: ["cyberagent", "mission", "vision", "hr", "retention", "employee-satisfaction", "work-environment", "long-term", "talent-management"],
+    color: "#00A040"
+  },
+  {
+    id: 209,
+    companyName: "CyberAgent",
+    slogan: "Become a highly moral company with thorough legal compliance",
+    slogan_ja: "法令順守を徹底したモラルの高い会社に。",
+    description: "コンプライアンスを徹底し、高い倫理観に基づいた企業活動を行い、社会的信頼を得る。",
+    tags: ["cyberagent", "mission", "vision", "ethics", "compliance", "legality", "morality", "csr", "corporate-governance"],
+    color: "#00A040"
+  },
+  {
+    id: 210,
+    companyName: "CyberAgent",
+    slogan: "Don't forget the Livedoor incident",
+    slogan_ja: "ライブドア事件を忘れるな。",
+    description: "過去の業界事例を教訓とし、コンプライアンスと企業倫理の重要性を常に意識する。",
+    tags: ["cyberagent", "mission", "vision", "ethics", "compliance", "livedoor", "cautionary-tale", "history", "lesson"],
+    color: "#00A040"
+  },
+  {
+    id: 211,
+    companyName: "CyberAgent",
+    slogan: "Give second chances to those who challenged and failed",
+    slogan_ja: "挑戦した敗者にはセカンドチャンスを。",
+    description: "失敗を恐れずに挑戦することを奨励し、挑戦の結果としての失敗からは学び、再挑戦の機会を与える文化。",
+    tags: ["cyberagent", "mission", "vision", "culture", "innovation", "challenge", "failure", "second-chance", "risk-taking", "learning"],
+    color: "#00A040"
+  },
+  {
+    id: 212,
+    companyName: "CyberAgent",
+    slogan: "Compete through creativity",
+    slogan_ja: "クリエイティブで勝負する。",
+    description: "創造性を競争力の源泉とし、常に独創的なアイデアや表現を追求し、他社との差別化を図る。",
+    tags: ["cyberagent", "mission", "vision", "strategy", "creativity", "innovation", "differentiation", "design", "originality"],
+    color: "#00A040"
+  },
+  {
+    id: 213,
+    companyName: "CyberAgent",
+    slogan: "Don't forget the 'Team CyberAgent' spirit",
+    slogan_ja: "「チーム・サイバーエージェント」の意識を忘れない。",
+    description: "多様な事業体が存在しても、グループ全体としての一体感と連帯感を持ち、協力し合う意識を重視する。",
+    tags: ["cyberagent", "mission", "vision", "culture", "teamwork", "collaboration", "unity", "group-identity", "one-team"],
+    color: "#00A040"
+  },
+  {
+    id: 214,
+    companyName: "CyberAgent",
+    slogan: "Develop world-class internet services and become a global company",
+    slogan_ja: "世界に通用するインターネットサービスを開発し、グローバル企業になる。",
+    description: "日本国内だけでなく、世界中で利用されるサービスを創出し、国際競争力を持つグローバル企業を目指す。",
+    tags: ["cyberagent", "mission", "vision", "strategy", "globalization", "international", "world-class", "ambition", "growth"],
+    color: "#00A040"
+  },
+  {
+    id: 215,
+    companyName: "Google",
+    slogan: "Focus on the user and all else will follow.",
+    slogan_ja: "ユーザーに焦点を絞れば、他のものはみな後からついてくる。",
+    description: "常にユーザーの利便性を最優先。優れたプロダクトやサービスは、ユーザーを第一に考えれば自ずとついてくるという信念。",
+    tags: ["google", "philosophy", "ten-things", "user-focus", "ux", "customer-first", "value", "experience"],
+    color: "#4285F4"
+  },
+  {
+    id: 216,
+    companyName: "Google",
+    slogan: "It’s best to do one thing really, really well.",
+    slogan_ja: "1 つのことをとことん極めてうまくやるのが一番。",
+    description: "検索分野に特化し、それを極めることに注力。一つのことを徹底的にうまくやることで、最高のサービスを提供する。",
+    tags: ["google", "philosophy", "ten-things", "focus", "search", "specialization", "expertise", "excellence", "core-business"],
+    color: "#4285F4"
+  },
+  {
+    id: 217,
+    companyName: "Google",
+    slogan: "Fast is better than slow.",
+    slogan_ja: "遅いより速いほうがいい。",
+    description: "ユーザーの時間を尊重し、情報へのアクセスは瞬時に行えるべきであるという考え。速さは遅さよりも常に優れている。",
+    tags: ["google", "philosophy", "ten-things", "speed", "performance", "efficiency", "latency", "user-experience", "time"],
+    color: "#4285F4"
+  },
+  {
+    id: 218,
+    companyName: "Google",
+    slogan: "Democracy on the web works.",
+    slogan_ja: "ウェブ上の民主主義は機能する。",
+    description: "ウェブ上のリンクを「投票」と捉え、PageRank等の技術で情報の価値を判断。ウェブの民主的な構造が検索の質を高める。",
+    tags: ["google", "philosophy", "ten-things", "pagerank", "algorithm", "links", "voting", "relevance", "open-source", "web"],
+    color: "#4285F4"
+  },
+  {
+    id: 219,
+    companyName: "Google",
+    slogan: "You don’t need to be at your desk to need an answer.",
+    slogan_ja: "情報を探したくなるのはパソコンの前にいるときだけではない。",
+    description: "情報ニーズは場所を選ばない。モバイル環境でのアクセス性を重視し、いつでもどこでも情報を提供することを目指す。",
+    tags: ["google", "philosophy", "ten-things", "mobile", "accessibility", "anywhere", "anytime", "android", "information-access"],
+    color: "#4285F4"
+  },
+  {
+    id: 220,
+    companyName: "Google",
+    slogan: "You can make money without doing evil.",
+    slogan_ja: "悪事を働かなくてもお金は稼げる。",
+    description: "倫理的な方法で収益を上げる。ユーザーの信頼を損なわず、客観性を保ちながら、関連性の高い広告などを通じてビジネスを行う。",
+    tags: ["google", "philosophy", "ten-things", "ethics", "business-model", "advertising", "integrity", "objectivity", "trust", "dont-be-evil"],
+    color: "#4285F4"
+  },
+  {
+    id: 221,
+    companyName: "Google",
+    slogan: "There’s always more information out there.",
+    slogan_ja: "世の中にはまだまだ情報があふれている。",
+    description: "世界中のあらゆる情報を整理し、アクセス可能にすることを使命とする。情報の探求に終わりはないという認識。",
+    tags: ["google", "philosophy", "ten-things", "information", "search", "indexing", "comprehensiveness", "data", "knowledge", "discovery"],
+    color: "#4285F4"
+  },
+  {
+    id: 222,
+    companyName: "Google",
+    slogan: "The need for information crosses all borders.",
+    slogan_ja: "情報のニーズはすべての国境を越える。",
+    description: "情報ニーズは国境を超える。世界中のユーザーにあらゆる言語で情報を提供し、グローバルなアクセスを実現する。",
+    tags: ["google", "philosophy", "ten-things", "global", "international", "language", "accessibility", "translation", "diversity", "reach"],
+    color: "#4285F4"
+  },
+  {
+    id: 223,
+    companyName: "Google",
+    slogan: "You can be serious without a suit.",
+    slogan_ja: "スーツを着なくても真剣に仕事はできる。",
+    description: "優れた仕事は、形式ばらない、挑戦的で楽しい環境から生まれる。スーツなしでも真剣に、創造的に仕事に取り組む文化。",
+    tags: ["google", "philosophy", "ten-things", "culture", "workplace", "casual", "innovation", "creativity", "fun", "collaboration"],
+    color: "#4285F4"
+  },
+  {
+    id: 224,
+    companyName: "Google",
+    slogan: "Great just isn’t good enough.",
+    slogan_ja: "「すばらしい」では足りない。",
+    description: "現状に満足せず、常に最高を目指す。優れたサービスであっても改善を続け、ユーザーの期待を超えることを追求する。",
+    tags: ["google", "philosophy", "ten-things", "excellence", "improvement", "innovation", "ambition", "striving", "continuous-improvement", "moonshot"],
+    color: "#4285F4"
+  },
+    {
+      id: 301,
+      companyName: "Sony",
+      slogan: "Create what benefits the customer, not just what they ask for.",
+      slogan_ja: "客の欲しがっているものではなく客のためになるものをつくれ。",
+      description: "顧客の顕在的な要望だけでなく、潜在的なニーズを満たし、真に生活を豊かにする本質的な価値を持つ製品を開発する。",
+      tags: ["sony", "development", "innovation", "user-benefit", "potential-needs", "proactive", "value-creation", "foresight", "customer-focus"],
+      color: "#004098" // Example Sony-like blue
+    },
+    {
+      id: 302,
+      companyName: "Sony",
+      slogan: "Create from your own perspective, not just the customer's.",
+      slogan_ja: "客の目線ではなく自分の目線でモノをつくれ。",
+      description: "顧客の意見に迎合せず、開発者自身の専門知識、洞察力、強い信念とビジョンに基づき、革新的な製品開発を進める。",
+      tags: ["sony", "development", "innovation", "vision", "intuition", "expertise", "leadership", "breakthrough", "originality", "conviction"],
+      color: "#004098"
+    },
+    {
+      id: 303,
+      companyName: "Sony",
+      slogan: "Decide size and cost by necessity, not just possibility.",
+      slogan_ja: "サイズやコストは可能性で決めるな。必要性・必然性で決めろ。",
+      description: "技術やコストの制約からではなく、製品の本質的価値に必要な仕様を定め、それを実現するために技術とコストの壁を乗り越える。",
+      tags: ["sony", "development", "specification", "cost", "size", "necessity", "essential-value", "target-setting", "non-compromise", "engineering"],
+      color: "#004098"
+    },
+    {
+      id: 304,
+      companyName: "Sony",
+      slogan: "The market may be mature, but the product isn't.",
+      slogan_ja: "市場は成熟しているかもしれないが商品は成熟などしていない。",
+      description: "市場が飽和しているように見えても、製品自体には常に改善や革新の余地がある。既存カテゴリーでも新たな価値を創造する。",
+      tags: ["sony", "development", "innovation", "market-maturity", "product-evolution", "continuous-improvement", "disruption", "refinement", "opportunity"],
+      color: "#004098"
+    },
+    {
+      id: 305,
+      companyName: "Sony",
+      slogan: "Reasons something *can't* be done are problems to be solved.",
+      slogan_ja: "できない理由はできることの証拠だ。できない理由を解決すればよい。",
+      description: "「できない理由」は、解決すべき課題を示している。その課題を特定し乗り越えることで、不可能を可能にする。",
+      tags: ["sony", "development", "problem-solving", "innovation", "breakthrough", "challenge", "obstacles", "persistence", "possibility", "mindset"],
+      color: "#004098"
+    },
+    {
+      id: 306,
+      companyName: "Sony",
+      slogan: "Good things cheaply, newer things quickly.",
+      slogan_ja: "よいものを安く、より新しいものを早く。",
+      description: "高品質な製品を手頃な価格で提供し、革新的な新製品を他社に先駆けて迅速に市場投入することを常に追求する。",
+      tags: ["sony", "development", "quality", "cost", "speed", "efficiency", "competitiveness", "market-timing", "value-engineering", "agility"],
+      color: "#004098"
+    },
+    {
+      id: 307,
+      companyName: "Sony",
+      slogan: "Solving weaknesses creates new markets; improving strengths expands existing ones.",
+      slogan_ja: "商品の弱点を解決すると新しい市場が生まれ、利点を改良すると今ある市場が広がる。",
+      description: "製品の弱点克服は新たな顧客層や用途を開拓し新市場を創る。長所を伸ばすことは既存市場を深耕し拡大させる。",
+      tags: ["sony", "development", "strategy", "market-creation", "market-expansion", "innovation", "weakness-analysis", "strength-improvement", "growth", "product-strategy"],
+      color: "#004098"
+    },
+    {
+      id: 308,
+      companyName: "Sony",
+      slogan: "Added value comes from focused wisdom and ingenuity.",
+      slogan_ja: "絞った知恵の量だけ付加価値が得られる。",
+      description: "製品の付加価値は、投入資源の量ではなく、どれだけ知恵を絞り工夫を凝らしたか、独創的なアイデアや賢い設計で決まる。",
+      tags: ["sony", "development", "value-creation", "ingenuity", "creativity", "problem-solving", "focus", "intelligence", "resourcefulness", "added-value"],
+      color: "#004098"
+    },
+    {
+      id: 309,
+      companyName: "Sony",
+      slogan: "Smart planning is the most effective cost reduction.",
+      slogan_ja: "企画の知恵に勝るコストダウンはない。",
+      description: "企画・設計段階での賢明な判断と工夫が、最も効果的なコスト削減につながる。後工程での改善より根本設計が重要。",
+      tags: ["sony", "development", "cost-reduction", "planning", "design", "efficiency", "foresight", "upfront-thinking", "value-engineering", "product-design"],
+      color: "#004098"
+    },
+    {
+      id: 310,
+      companyName: "Sony",
+      slogan: "Failure as a late entrant is irrecoverable.",
+      slogan_ja: "後発での失敗は再起不能と思え。",
+      description: "市場への後発参入時に失敗すると、信頼を失い挽回のチャンスはない。絶対に失敗できない覚悟で臨む必要がある。",
+      tags: ["sony", "development", "market-entry", "competition", "risk", "execution", "precision", "strategy", "second-chance", "high-stakes"],
+      color: "#004098"
+    },
+    {
+      id: 311,
+      companyName: "Sony",
+      slogan: "If it doesn't sell, it's too expensive or not good enough.",
+      slogan_ja: "ものが売れないのは高いか悪いのかのどちらかだ。",
+      description: "製品が売れない根本原因は、価格設定か製品価値のどちらかにある。言い訳せず、本質的な問題を直視し改善する。",
+      tags: ["sony", "development", "market-feedback", "sales", "price", "quality", "product-value", "analysis", "honesty", "accountability"],
+      color: "#004098"
+    },
+    {
+      id: 312,
+      companyName: "Sony",
+      slogan: "Sow new product seeds in fertile market fields.",
+      slogan_ja: "新しい種（商品）は育つ畑に蒔け。",
+      description: "革新的な新製品は、それが受け入れられ成長する可能性の高い、適切な市場や環境に投入すべきである。",
+      tags: ["sony", "development", "product-launch", "market-selection", "strategy", "timing", "ecosystem", "target-audience", "positioning", "success-factors"],
+      color: "#004098"
+    },
+    {
+      id: 313,
+      companyName: "Sony",
+      slogan: "Worrying about competitors' moves is the beginning of defeat.",
+      slogan_ja: "他社の動きを気にし始めるのは負けの始まりだ。",
+      description: "競合の動向に過度に反応し始めると、自社の独自性を失い、主導権を失う。常に自らのビジョンに基づき行動する。",
+      tags: ["sony", "development", "competition", "focus", "leadership", "innovation", "proactivity", "vision", "internal-drive", "confidence"],
+      color: "#004098"
+    },
+    {
+      id: 314,
+      companyName: "Sony",
+      slogan: "Difficult is just a type of possible.",
+      slogan_ja: "可能と困難は可能のうち。",
+      description: "「困難である」ことは「不可能」ではない。困難な課題も、挑戦し乗り越えれば実現可能な範疇にあると捉える。",
+      tags: ["sony", "development", "challenge", "possibility", "mindset", "perseverance", "problem-solving", "engineering", "can-do-attitude", "overcoming-limits"],
+      color: "#004098"
+    },
+    {
+      id: 315,
+      companyName: "Sony",
+      slogan: "Push for the slightly unreasonable to change thinking.",
+      slogan_ja: "無謀はいけないが多少の無理はさせろ、無理を通せば、発想が変わる。",
+      description: "無謀は避けるべきだが、少し無理な目標に挑戦させることが重要。困難を乗り越える中で、従来の発想を超える視点が生まれる。",
+      tags: ["sony", "development", "innovation", "challenge", "breakthrough", "mindset-shift", "stretching-limits", "ambition", "creativity", "demanding-excellence"],
+      color: "#004098"
+    },
+    {
+      id: 316,
+      companyName: "Sony",
+      slogan: "Replace your own technology before others do.",
+      slogan_ja: "新しい技術は、必ず次の技術によって置き換わる宿命を持っている。それをまた自分の手でやってこそ技術屋冥利に尽きる。自分がやらなければ他社がやるだけのこと。商品のコストもまったく同じ。",
+      description: "技術は必ず陳腐化する。他社にされる前に、自らの手で旧技術を超える新技術を生み出すことが技術者の本懐であり、生き残る道。",
+      tags: ["sony", "development", "innovation", "self-disruption", "obsolescence", "technology-cycle", "engineering-pride", "continuous-improvement", "proactivity", "cost-reduction"],
+      color: "#004098"
+    },
+    {
+      id: 317,
+      companyName: "Sony",
+      slogan: "Create markets, don't just research them.",
+      slogan_ja: "市場は調査するものではなく創造するものだ。世界初の商品を出すのに、調査のしようがないし、調査してもあてにならない。",
+      description: "真に新しい製品に市場調査は無意味。強いビジョンに基づき、これまで存在しなかった価値を提案し、新たな市場を創造する。",
+      tags: ["sony", "development", "innovation", "market-creation", "vision", "world-first", "breakthrough", "leadership", "conviction", "unchartered-territory"],
+      color: "#004098"
+    },
+    {
+      id: 318,
+      companyName: "Sony",
+      slogan: "If the boss is timid, build the prototype first, then show them.",
+      slogan_ja: "不幸にして意気地のない上司についたときは新しいアイデアは上司に黙って、まず、ものをつくれ。",
+      description: "革新的なアイデアが上司に理解されないリスクがあるなら、まず黙って形にし、実物で価値を証明してから見せるべき。",
+      tags: ["sony", "development", "innovation", "action", "prototyping", "skunkworks", "bureaucracy", "risk-aversion", "demonstration", "internal-politics"],
+      color: "#004098"
+    },
 
-// Example usage (optional, to verify the changes)
-// 使用例（任意、変更を確認するため）
-// cultureCodes.forEach(code => {
-//   if (code.id >= 22) {
-//     console.log(`ID: ${code.id}, Company: ${code.companyName}, Description: ${code.description}`);
-//   }
-// });
-
+    {
+        id: 319,
+        companyName: 'メルカリ',
+        slogan: 'Go Bold',
+        slogan_ja: '大胆にやろう',
+        description: '失敗を恐れず大胆に挑戦し、試行錯誤から学び成功へ繋げる。成功・失敗から学び、次の挑戦の糧とする。',
+        tags: ['Mercari', 'Bold', 'Challenge', 'Fearless of Failure', 'Trial and Error', 'Praise', 'Reflection', 'Learning', 'Growth'],
+        color: '#FF0211'
+      },
+      {
+        id: 320,
+        companyName: 'メルカリ',
+        slogan: 'All for One',
+        slogan_ja: '全ては成功のために',
+        description: '専門領域にこだわらず、多様なメンバーが互いを尊重し、ミッション達成のために一丸となる。決定には全員でコミットする。',
+        tags: ['Mercari', 'Teamwork', 'Cooperation', 'Success-Oriented', 'Diversity', 'Trust', 'Respect', 'Expertise', 'Constructive Discussion', 'Commitment', 'Disagree & Commit'],
+        color: '#FF0211'
+      },
+      {
+        id: 321,
+        companyName: 'メルカリ',
+        slogan: 'Be a Pro',
+        slogan_ja: 'プロフェッショナルであれ',
+        description: '高い専門性と倫理観を持ち、責任ある行動をする。常に学び成長し続け、オーナーシップを持ってユーザー視点で貢献する。',
+        tags: ['Mercari', 'Professionalism', 'Expertise', 'Ethics', 'Responsibility', 'Growth', 'Ownership', 'Self-Management', 'Curiosity', 'Ambition', 'Learning', 'User Perspective', 'Improvement'],
+        color: '#FF0211'
+      },
+      {
+        id: 322,
+        companyName: 'メルカリ',
+        slogan: 'Move Fast',
+        slogan_ja: 'はやく動く',
+        description: '常にスピードを重視し、迅速な意思決定と行動を心がける。行動から学び、物事を素早く前進させることにこだわる。',
+        tags: ['Mercari', 'Speed', 'Agility', 'Decision Making', 'Action', 'Ownership', 'Learning', 'Progress', 'Efficiency'],
+        color: '#FF0211'
+      }
+    ];
+    
+    // 必要に応じて console.log などで確認できます
+    // console.log(mercariValues);    
+    // 例: 更新後のリストの内容を確認
+    // 新しい配列の内容を確認
+    // console.log(updatedMercariValues);
 // Get all unique tags from the combined culture codes
 // 統合されたカルチャーコードからすべてのユニークなタグを取得します
 const allTags = Array.from(new Set(cultureCodes.flatMap((code) => code.tags))).sort();
