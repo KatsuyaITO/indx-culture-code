@@ -1592,9 +1592,71 @@ const cultureCodes: CultureCode[] = [
         description: '常にスピードを重視し、迅速な意思決定と行動を心がける。行動から学び、物事を素早く前進させることにこだわる。',
         tags: ['Mercari', 'Speed', 'Agility', 'Decision Making', 'Action', 'Ownership', 'Learning', 'Progress', 'Efficiency'],
         color: '#FF0211'
-      }
-    ];
-    
+      },
+        {
+          id: 323,
+          companyName: '日本電産',
+          slogan: 'Always seek improvement.',
+          slogan_ja: '絶えず、“これで良いのか”を合言葉に事にあたりましょう。',
+          description: '常に現状に満足せず、より良い方法や改善点を探し続ける姿勢を持つ。現状維持ではなく、継続的な改善を目指す。',
+          tags: ['Nidec', 'Improvement', 'Kaizen', 'Questioning Status Quo', 'Growth Mindset', 'Proactive'],
+          color: '#EC2127'
+        },
+        {
+          id: 324,
+          companyName: '日本電産',
+          slogan: 'Consider others as well as yourself.',
+          slogan_ja: '自分のことを考えると同時に相手のこともよく考えましょう。',
+          description: '自分の都合だけでなく、顧客や同僚など相手の立場や気持ちを理解し、配慮して行動する。相互理解と協調を重視する。',
+          tags: ['Nidec', 'Consideration', 'Empathy', 'Teamwork', 'Customer Focus', 'Collaboration', 'Respect'],
+          color: '#EC2127'
+        },
+        {
+          id: 325,
+          companyName: '日本電産',
+          slogan: 'Speak responsibly.',
+          slogan_ja: '責任ある発言を行いましょう。',
+          description: '自身の言葉に責任を持ち、根拠のない発言は避ける。発言したことには最後まで責任を持って取り組む姿勢を示す。',
+          tags: ['Nidec', 'Responsibility', 'Accountability', 'Integrity', 'Trustworthiness', 'Commitment'],
+          color: '#EC2127'
+        },
+        {
+          id: 326,
+          companyName: '日本電産',
+          slogan: 'Lead by example through action.',
+          slogan_ja: '実行を持って範を示しましょう。',
+          description: '言葉だけでなく、自ら行動することで手本を示し、周囲を導く。行動こそが最も説得力を持つという考え方。',
+          tags: ['Nidec', 'Leadership', 'Action-Oriented', 'Initiative', 'Proactive', 'Role Model', 'Execution'],
+          color: '#EC2127'
+        },
+        {
+          id: 327,
+          companyName: '日本電産',
+          slogan: 'Share joys and sorrows as comrades.',
+          slogan_ja: '苦しみ楽しみを分かち合える社員、同志でありましょう。',
+          description: '仕事上の困難も喜びも仲間と共有し、互いに支え合う関係性を築く。チームワークと連帯感を大切にする。',
+          tags: ['Nidec', 'Teamwork', 'Camaraderie', 'Support', 'Shared Experience', 'Unity', 'Collaboration'],
+          color: '#EC2127'
+        },
+        {
+          id: 328,
+          companyName: '日本電産',
+          slogan: 'Proactively report both good and bad.',
+          slogan_ja: '良いことも悪いことも進んで報告、申告できる社員でありましょう。',
+          description: '成功も失敗も隠さず、積極的に報告・相談する。透明性を保ち、問題を早期に発見・解決することを目指す。',
+          tags: ['Nidec', 'Transparency', 'Honesty', 'Reporting', 'Communication', 'Problem Solving', 'Proactive'],
+          color: '#EC2127'
+        },
+        {
+          id: 329,
+          companyName: '日本電産',
+          slogan: 'Be conscious of costs and profits.',
+          slogan_ja: '原価意識、損益意識をもてる社員でありましょう。',
+          description: '自身の業務がコストや利益にどう影響するか常に意識する。無駄をなくし、会社全体の利益への貢献を考える。',
+          tags: ['Nidec', 'Cost Awareness', 'Profitability', 'Business Acumen', 'Efficiency', 'Contribution', 'Financial Literacy'],
+          color: '#EC2127'
+        }
+      ]    
     // 必要に応じて console.log などで確認できます
     // console.log(mercariValues);    
     // 例: 更新後のリストの内容を確認
